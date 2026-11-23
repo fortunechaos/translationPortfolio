@@ -215,7 +215,7 @@ async function deploy(){
 
   removeElements();
 
-  princessHarp = await loadSound('map\sounds\princessHarp.mp3?raw=true');
+  princessHarp = await loadSound('map/sounds/princessHarp.mp3?raw=true');
   cards = await loadSound('map/sounds/shuffleCards.mp3?raw=true');
   Aurora = new Identity(35, 40, "Princess", "Magician", 'LightSteelBlue', princessHarp, cards);
 
