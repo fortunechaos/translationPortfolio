@@ -311,12 +311,12 @@ async function setup(){
 
 function mouseClicked(){
   trigger = false;
-  for (i = 0; i < 18; i = i + 1){
+  for (let i = 0; i < 18; i = i + 1){
     System[i].cycle();
   }
   if(mouseX > titleBounds.x & mouseX < titleBounds.x + titleBounds.w & mouseY > titleBounds.y & mouseY < titleBounds.y + titleBounds.h){
     trigger = true;
-    for (j = 0; j < 18; j = j + 1){
+    for (let j = 0; j < 18; j = j + 1){
       System[j].randomize();
     }
   }
