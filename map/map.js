@@ -8,7 +8,7 @@ let progressCount = 3;
 let progressComplete = false;
 let trigger = false;
 
-let System;
+let System = [];
 
 let Adrian;
 let radio;
@@ -305,7 +305,7 @@ async function deploy(){
   Fira.projection();
 }
 
-async function setup(){
+function setup(){
   startButton = createButton("Start");
   startButton.mouseClicked(deploy);
 }
