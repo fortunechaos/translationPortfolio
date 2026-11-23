@@ -215,76 +215,76 @@ async function deploy(){
 
   removeElements();
 
-  princessHarp = await loadSound('https://github.com/fortunechaos/translationPortfolio/blob/main/map/sounds/princessHarp.mp3');
-  cards = await loadSound('map/sounds/shuffleCards.mp3');
+  princessHarp = await loadSound('map\sounds\princessHarp.mp3?raw=true');
+  cards = await loadSound('map/sounds/shuffleCards.mp3?raw=true');
   Aurora = new Identity(35, 40, "Princess", "Magician", 'LightSteelBlue', princessHarp, cards);
 
-  telephone = await loadSound('map/sounds/telephone.mp3');
-  church = await loadSound('map/sounds/churchAmbiance.mp3');
+  telephone = await loadSound('map/sounds/telephone.mp3?raw=true');
+  church = await loadSound('map/sounds/churchAmbiance.mp3?raw=true');
   Tilly = new Identity(25, 35, "Telephone", "Delusion", 'Yellow', telephone, church);
 
-  pigeons = await loadSound('map/sounds/pigeons.mp3.mp3');
-  spooky = await loadSound('map/sounds/spookyWind.mp3');
+  pigeons = await loadSound('map/sounds/pigeons.mp3?raw=true');
+  spooky = await loadSound('map/sounds/spookyWind.mp3?raw=true');
   Masha = new Identity(25, 50, "Wings", "Ghost", 'DarkOrange', pigeons, spooky);
   
-  sharpening = await loadSound('map/sounds/sharpening.mp3');
-  bird = await loadSound('map/sounds/eagle.mp3');
+  sharpening = await loadSound('map/sounds/sharpening.mp3?raw=true');
+  bird = await loadSound('map/sounds/eagle.mp3?raw=true');
   Simon = new Identity(25, 60, "Sword", "Prosecution", 'DarkGoldenRod', sharpening, bird);
 
-  hum = await loadSound('map/sounds/computerHumm.mp3');
-  darkSynth = await loadSound('map/sounds/DarkRumbling.mp3');
+  hum = await loadSound('map/sounds/computerHumm.mp3?raw=true');
+  darkSynth = await loadSound('map/sounds/DarkRumbling.mp3?raw=true');
   Vanny = new Identity(10, 70, "Program", "Unnatural", 'Crimson', hum, darkSynth);
 
-  alcohol = await loadSound('map/sounds/alcohol.mp3');
-  chalk = await loadSound('map/sounds/chalk.mp3');
+  alcohol = await loadSound('map/sounds/alcohol.mp3?raw=true');
+  chalk = await loadSound('map/sounds/chalk.mp3?raw=true');
   Eli = new Identity(30, 85, "Sorrow", "Protection", 'Grey', alcohol, chalk);
 
-  synth = await loadSound('map/sounds/beepSynth.mp3');
-  ocean = await loadSound('map/sounds/ocean.mp3');
+  synth = await loadSound('map/sounds/beepSynth.mp3?raw=true');
+  ocean = await loadSound('map/sounds/ocean.mp3?raw=true');
   Beep = new Identity(50, 30, "Synth", "Adventure", 'DarkCyan', synth, ocean);
 
-  radio = await loadSound('map/sounds/radio.mp3');
-  globe = await loadSound('map/sounds/globe.mp3');
+  radio = await loadSound('map/sounds/radio.mp3?raw=true');
+  globe = await loadSound('map/sounds/globe.mp3?raw=true');
   Adrian = new Identity(50, 50, "Radio", "Centered", 'DarkGoldenrod', radio, globe);
 
-  metronome = await loadSound('map/sounds/metronome.mp3');
-  ambiance = await loadSound('map/sounds/darlingAmbient.mp3');
+  metronome = await loadSound('map/sounds/metronome.mp3?raw=true');
+  ambiance = await loadSound('map/sounds/darlingAmbient.mp3?raw=true');
   Darling = new Identity(50, 65, "Obsession", "Otherworldly", 'MediumSeaGreen', metronome, ambiance);
   
-  puppet = await loadSound('map/sounds/puppet.mp3');
-  otherRoom = await loadSound('map/sounds/nextRoom.mp3');
+  puppet = await loadSound('map/sounds/puppet.mp3?raw=true');
+  otherRoom = await loadSound('map/sounds/nextRoom.mp3?raw=true');
   Evren = new Identity(50, 80, "Puppet", "Lonely", 'MidnightBlue', puppet, otherRoom);
 
-  gloomHarp = await loadSound('map/sounds/dawnHarp.mp3');
-  museum = await loadSound('map/sounds/museum.mp3');
+  gloomHarp = await loadSound('map/sounds/dawnHarp.mp3?raw=true');
+  museum = await loadSound('map/sounds/museum.mp3?raw=true');
   Dawn = new Identity(75, 10, "Sunlight", "Curator", 'Gold', gloomHarp, museum);
 
-  chimes = await loadSound('map/sounds/windChimes.mp3');
-  industry = await loadSound('map/sounds/industry.mp3');
+  chimes = await loadSound('map/sounds/windChimes.mp3?raw=true');
+  industry = await loadSound('map/sounds/industry.mp3?raw=true');
   song = new Identity(55, 40, "Gardener", "Expirimental", 'ForestGreen', chimes, industry);
 
-  bass = await loadSound('map/sounds/bass.mp3');
-  fire = await loadSound('map/sounds/fire.mp3');
+  bass = await loadSound('map/sounds/bass.mp3?raw=true');
+  fire = await loadSound('map/sounds/fire.mp3?raw=true');
   Fira = new Identity(79, 50, "Jazz", "Confrontation", 'Red', bass, fire);
 
-  bush = await loadSound('map/sounds/bush.mp3');
-  baking = await loadSound('map/sounds/mixing.mp3');
+  bush = await loadSound('map/sounds/bush.mp3?raw=true');
+  baking = await loadSound('map/sounds/mixing.mp3?raw=true');
   Rowan = new Identity(65, 50, "Deer", "Sister", 'DeepPink', bush, baking);
 
-  guitar = await loadSound('map/sounds/guitar.mp3');
-  waterfall = await loadSound('map/sounds/waterfall.mp3');
+  guitar = await loadSound('map/sounds/guitar.mp3?raw=true');
+  waterfall = await loadSound('map/sounds/waterfall.mp3?raw=true');
   Jasper = new Identity(60, 55, "Hippie", "Spirit", 'RoyalBlue', guitar, waterfall);
 
-  dog = await loadSound('map/sounds/dog.mp3');
-  horse = await loadSound('map/sounds/horse.mp3');
+  dog = await loadSound('map/sounds/dog.mp3?raw=true');
+  horse = await loadSound('map/sounds/horse.mp3?raw=true');
   Collie = new Identity(65, 45, "Sheepdog", "Cowboy", 'Sienna', dog, horse);
 
-  thunder = await loadSound('map/sounds/thunder.mp3');
-  book = await loadSound('map/sounds/book.mp3');
+  thunder = await loadSound('map/sounds/thunder.mp3?raw=true');
+  book = await loadSound('map/sounds/book.mp3?raw=true');
   Stephen = new Identity(70, 70, "Shadow", "Ambivilent", 'Purple', thunder, book);
 
-  outdoors = await loadSound('map/sounds/newEngland.mp3');
-  typeWriter = await loadSound('map/sounds/typewriter.mp3');
+  outdoors = await loadSound('map/sounds/newEngland.mp3?raw=true');
+  typeWriter = await loadSound('map/sounds/typewriter.mp3?raw=true');
   Marius = new Identity(65, 90, "Solitude", "Edit", 'Olive', outdoors, typeWriter);
 
   System = [Adrian, Masha, Fira, Marius, Collie, Dawn, Jasper, Eli, song, Rowan, Vanny, Simon, Darling, Aurora, Evren, Tilly, Beep, Stephen];
