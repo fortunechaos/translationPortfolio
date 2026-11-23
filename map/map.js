@@ -82,6 +82,8 @@ let Stephen;
 let thunder;
 let book;
 
+let startButton;
+
 
 class Identity {
   constructor(x, y, aspect1, aspect2, shade, sound1, sound2){
@@ -303,7 +305,7 @@ async function deploy(){
 }
 
 async function setup(){
-  let startButton = createButton("Start");
+  startButton = createButton("Start");
   startButton.mouseClicked(deploy);
 }
 
