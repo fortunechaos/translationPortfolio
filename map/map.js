@@ -8,7 +8,7 @@ let progressCount = 3;
 let progressComplete = false;
 let trigger = false;
 
-let System = [];
+let System;
 
 let Adrian;
 let radio;
@@ -311,7 +311,7 @@ function setup(){
 }
 
 function mouseClicked(){
-  if (buttonControl == false){
+  if (buttonControl == false & System !== undefined){
     trigger = false;
     for (let i = 0; i < 18; i = i + 1){
       System[i].cycle();
