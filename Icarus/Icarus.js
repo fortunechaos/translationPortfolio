@@ -11,6 +11,6 @@ let paintingWidthSized = canvasWidth;
 let paintingHeightSized = (paintingHeight*paintingWidthSized/paintingWidth);
 
 async function setup(){
-    painting = await loadImage('Icarus/landscapeWithTheFallOfIcarus.jpg');
+    painting = await loadImage('https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg/1280px-Pieter_Bruegel_the_Elder_-_Landscape_with_the_Fall_of_Icarus_-_Brussels%2C_Royal_Museums_of_Fine_Arts_of_Belgium_-_Google_Arts_%26_Culture.jpg?');
     console.log(paintingHeightSized);
 }
