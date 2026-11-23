@@ -215,7 +215,7 @@ async function deploy(){
 
   removeElements();
 
-  princessHarp = await loadSound('map/sounds/princessHarp.mp3');
+  princessHarp = await loadSound('https://github.com/fortunechaos/translationPortfolio/blob/main/map/sounds/princessHarp.mp3');
   cards = await loadSound('map/sounds/shuffleCards.mp3');
   Aurora = new Identity(35, 40, "Princess", "Magician", 'LightSteelBlue', princessHarp, cards);
 
