@@ -219,75 +219,75 @@ async function deploy(){
   removeElements();
 
   princessHarp = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/princessHarp.mp3');
-  cards = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/shuffleCards.mp3');
+  cards = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/shuffleCards.mp3');
   Aurora = new Identity(35, 40, "Princess", "Magician", 'LightSteelBlue', princessHarp, cards);
 
-  telephone = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/telephone.mp3');
-  church = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/churchAmbiance.mp3');
+  telephone = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/telephone.mp3');
+  church = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/churchAmbiance.mp3');
   Tilly = new Identity(25, 35, "Telephone", "Delusion", 'Yellow', telephone, church);
 
   pigeons = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/pigeons.mp3');
-  spooky = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/spookyWind.mp3');
+  spooky = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/spookyWind.mp3');
   Masha = new Identity(25, 50, "Wings", "Ghost", 'DarkOrange', pigeons, spooky);
   
-  sharpening = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/sharpening.mp3');
-  bird = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/eagle.mp3');
+  sharpening = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/sharpening.mp3');
+  bird = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/eagle.mp3');
   Simon = new Identity(25, 60, "Sword", "Prosecution", 'DarkGoldenRod', sharpening, bird);
 
-  hum = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/computerHumm.mp3');
-  darkSynth = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/DarkRumbling.mp3');
+  hum = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/computerHumm.mp3');
+  darkSynth = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/DarkRumbling.mp3');
   Vanny = new Identity(10, 70, "Program", "Unnatural", 'Crimson', hum, darkSynth);
 
-  alcohol = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/alcohol.mp3');
-  chalk = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/chalk.mp3');
+  alcohol = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/alcohol.mp3');
+  chalk = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/chalk.mp3');
   Eli = new Identity(30, 85, "Sorrow", "Protection", 'Grey', alcohol, chalk);
 
-  synth = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/beepSynth.mp3');
-  ocean = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/ocean.mp3');
+  synth = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/beepSynth.mp3');
+  ocean = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/ocean.mp3');
   Beep = new Identity(50, 30, "Synth", "Adventure", 'DarkCyan', synth, ocean);
 
-  radio = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/radio.mp3');
-  globe = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/globe.mp3');
+  radio = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/radio.mp3');
+  globe = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/globe.mp3');
   Adrian = new Identity(50, 50, "Radio", "Centered", 'DarkGoldenrod', radio, globe);
 
-  metronome = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/metronome.mp3');
-  ambiance = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/darlingAmbient.mp3');
+  metronome = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/metronome.mp3');
+  ambiance = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/darlingAmbient.mp3');
   Darling = new Identity(50, 65, "Obsession", "Otherworldly", 'MediumSeaGreen', metronome, ambiance);
   
-  puppet = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/puppet.mp3');
-  otherRoom = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/nextRoom.mp3');
+  puppet = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/puppet.mp3');
+  otherRoom = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/nextRoom.mp3');
   Evren = new Identity(50, 80, "Puppet", "Lonely", 'MidnightBlue', puppet, otherRoom);
 
-  gloomHarp = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/dawnHarp.mp3');
-  museum = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/museum.mp3');
+  gloomHarp = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/dawnHarp.mp3');
+  museum = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/museum.mp3');
   Dawn = new Identity(75, 10, "Sunlight", "Curator", 'Gold', gloomHarp, museum);
 
-  chimes = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/windChimes.mp3');
-  industry = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/industry.mp3');
+  chimes = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/windChimes.mp3');
+  industry = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/industry.mp3');
   song = new Identity(55, 40, "Gardener", "Expirimental", 'ForestGreen', chimes, industry);
 
-  bass = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/bass.mp3');
-  fire = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/fire.mp3');
+  bass = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/bass.mp3');
+  fire = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/fire.mp3');
   Fira = new Identity(79, 50, "Jazz", "Confrontation", 'Red', bass, fire);
 
-  bush = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/bush.mp3');
-  baking = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/mixing.mp3');
+  bush = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/bush.mp3');
+  baking = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/mixing.mp3');
   Rowan = new Identity(65, 50, "Deer", "Sister", 'DeepPink', bush, baking);
 
-  guitar = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/guitar.mp3');
-  waterfall = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/waterfall.mp3');
+  guitar = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/guitar.mp3');
+  waterfall = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/waterfall.mp3');
   Jasper = new Identity(60, 55, "Hippie", "Spirit", 'RoyalBlue', guitar, waterfall);
 
-  dog = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/dog.mp3');
-  horse = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/horse.mp3');
+  dog = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/dog.mp3');
+  horse = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/horse.mp3');
   Collie = new Identity(65, 45, "Sheepdog", "Cowboy", 'Sienna', dog, horse);
 
-  thunder = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/thunder.mp3');
-  book = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/book.mp3');
+  thunder = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/thunder.mp3');
+  book = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/book.mp3');
   Stephen = new Identity(70, 70, "Shadow", "Ambivilent", 'Purple', thunder, book);
 
-  outdoors = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/newEngland.mp3');
-  typeWriter = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/typewriter.mp3');
+  outdoors = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/newEngland.mp3');
+  typeWriter = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/typewriter.mp3');
   Marius = new Identity(65, 90, "Solitude", "Edit", 'Olive', outdoors, typeWriter);
 
   System = [Adrian, Masha, Fira, Marius, Collie, Dawn, Jasper, Eli, song, Rowan, Vanny, Simon, Darling, Aurora, Evren, Tilly, Beep, Stephen];
