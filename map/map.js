@@ -226,7 +226,7 @@ async function deploy(){
   church = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/churchAmbiance.mp3');
   Tilly = new Identity(25, 35, "Telephone", "Delusion", 'Yellow', telephone, church);
 
-  pigeons = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/mainmap/sounds/pigeons.mp3');
+  pigeons = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/pigeons.mp3');
   spooky = await loadSound('https://raw.githubusercontent.com/fortunechaos/translationPortfolio/main/map/sounds/spookyWind.mp3');
   Masha = new Identity(25, 50, "Wings", "Ghost", 'DarkOrange', pigeons, spooky);
   
