@@ -83,6 +83,7 @@ let thunder;
 let book;
 
 let startButton;
+let buttonControl = true;
 
 
 class Identity {
@@ -214,7 +215,7 @@ class Identity {
 }
 
 async function deploy(){
-
+  buttonControl = false;
   removeElements();
 
   princessHarp = await loadSound('map/sounds/princessHarp.mp3?raw=true');
@@ -310,21 +311,23 @@ async function setup(){
 }
 
 function mouseClicked(){
-  trigger = false;
-  for (let i = 0; i < 18; i = i + 1){
-    System[i].cycle();
-  }
-  if(mouseX > titleBounds.x & mouseX < titleBounds.x + titleBounds.w & mouseY > titleBounds.y & mouseY < titleBounds.y + titleBounds.h){
-    trigger = true;
-    for (let j = 0; j < 18; j = j + 1){
-      System[j].randomize();
+  if (buttonControl == false){
+    trigger = false;
+    for (let i = 0; i < 18; i = i + 1){
+      System[i].cycle();
     }
-  }
-  if (trigger == false & progressComplete == false){
-    System[progressCount].projection();
-    progressCount = progressCount + 1
-    if (progressCount == 18){
-      progressComplete = true;
+    if(mouseX > titleBounds.x & mouseX < titleBounds.x + titleBounds.w & mouseY > titleBounds.y & mouseY < titleBounds.y + titleBounds.h){
+      trigger = true;
+      for (let j = 0; j < 18; j = j + 1){
+        System[j].randomize();
+      }
+    }
+    if (trigger == false & progressComplete == false){
+      System[progressCount].projection();
+      progressCount = progressCount + 1
+      if (progressCount == 18){
+        progressComplete = true;
+      }
     }
   }
 }
