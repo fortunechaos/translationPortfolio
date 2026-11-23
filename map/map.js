@@ -211,11 +211,13 @@ class Identity {
   }
 }
 
-async function setup(){
+async function deploy(){
 
-  //princessHarp = await loadSound('map/sounds/princessHarp.mp3');
+  removeElements();
+
+  princessHarp = await loadSound('map/sounds/princessHarp.mp3');
   cards = await loadSound('map/sounds/shuffleCards.mp3');
-  //Aurora = new Identity(35, 40, "Princess", "Magician", 'LightSteelBlue', princessHarp, cards);
+  Aurora = new Identity(35, 40, "Princess", "Magician", 'LightSteelBlue', princessHarp, cards);
 
   telephone = await loadSound('map/sounds/telephone.mp3');
   church = await loadSound('map/sounds/churchAmbiance.mp3');
@@ -298,6 +300,11 @@ async function setup(){
   Adrian.projection();
   Masha.projection();
   Fira.projection();
+}
+
+async function setup(){
+  let startButton = createButton("Start");
+  startButton.mouseClicked(deploy);
 }
 
 function mouseClicked(){
