@@ -1,0 +1,16 @@
+html, body {
+  margin-top: 10%;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darksalmon;
+}
+h1 {
+    font-size: xx-large;
+    color: yellow;
+    text-align: center;
+}
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: larger;
+}
